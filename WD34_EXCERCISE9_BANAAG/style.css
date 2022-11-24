@@ -404,7 +404,7 @@ body {
 
 .menu-content1 {
   width: 50%;
-  height: 50vh;
+  height: 50%;
   border: 0px solid green;
 }
 /* code above is the main code for the 4 quadrants */
@@ -417,31 +417,27 @@ body {
   border: 0px solid red;
   padding: 20px 20px;
 }
+
+.appetizer1 img{
+  height: 90%;
+  margin: 20px 20px;
+
+}
 .appetizer2 {
   width: 50%;
   height: 45vh;
   text-align: left;
   border: 0px solid yellow;
-  padding: 20px 20px;
+  padding: 20px 10px;
   backdrop-filter: blur(30px);
 }
-.appetizer1a {
-  width: 50%;
-  height: 50vh;
-  border: 0px solid red;
-  padding: 20px 20px;
-}
-.appetizer2a {
-  width: 50%;
-  height: 45vh;
-  text-align: left;
-  border: 0px solid yellow;
-  padding: 20px 20px;
-  backdrop-filter: blur(30px);
+.appetizer2 dl{
+  height: 90%;
+  margin: 20px 20px;
 }
 
 .overflow {
-  height: 350px;
+  height: 300px;
   overflow: scroll;
   overflow-x: hidden;
 }
