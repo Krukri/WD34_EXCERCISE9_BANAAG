@@ -6,11 +6,15 @@ body {
   background: black;
   background-size: 100%;
   background-image: url("Canoe.jpg");
-  padding: -5px -5px -5px -5px;
+  /* padding: -5px -5px -5px -5px; */
   background-repeat: no-repeat;
   background-attachment: fixed;
   font-family: "Montserrat", sans-serif;
   scroll-behavior: smooth;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 
 .logo {
@@ -418,7 +422,7 @@ body {
   width: 50%;
   height: 50vh;
   border: 0px solid red;
-  padding: 20px 0px;
+  padding: 20px 10px;
 }
 
 .appetizer1 img {
