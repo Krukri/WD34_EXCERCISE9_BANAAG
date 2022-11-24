@@ -355,12 +355,11 @@ body {
   float: left;
   backdrop-filter: blur(30px);
   text-align: left;
+  margin: auto;
 }
-
-.contactus-details ul{
-  margin: 140px 10px;
+.contactus-details ul {
+  margin: 40px 10px;
 }
-
 .constactus-details2 {
   width: 50%;
   float: left;
@@ -419,23 +418,22 @@ body {
   width: 50%;
   height: 50vh;
   border: 0px solid red;
-  padding: 20px 20px;
+  padding: 20px 0px;
 }
 
-.appetizer1 img{
+.appetizer1 img {
   height: 90%;
-  margin: 20px 20px;
-
+  margin: auto;
 }
 .appetizer2 {
   width: 50%;
   height: 45vh;
   text-align: left;
-  border: 0px solid yellow;
-  padding: 20px 10px;
+  border: px solid yellow;
+  padding: 10px 10px;
   backdrop-filter: blur(30px);
 }
-.appetizer2 dl{
+.appetizer2 dl {
   height: 90%;
   margin: 20px 20px;
 }
