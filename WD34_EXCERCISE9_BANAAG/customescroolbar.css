@@ -1,0 +1,30 @@
+/* the source of the code is given by Kevin Powel: https://www.youtube.com/watch?v=lvKK2fs6h4I */
+::-webkit-scrollbar {
+  width: 0.5em;
+  height: 0.5em;
+}
+/* the width will display all the width of the scrollbar in the page for y axis */
+/* the height will affect the thickness of the scrollbar in the x axis  */
+::-webkit-scrollbar-track {
+  background: rgba(31, 27, 27, 0.829);
+  border-radius: 100vw;
+  margin-block: 0.2em;
+}
+/* margin-block will place the margin to top and bottom */
+/* margin-online will place the margin to left and right */
+/* track is the entire scrollbar */
+::-webkit-scrollbar-thumb {
+  background: rgba(218, 165, 32, 1);
+  border-radius: 100vw;
+  border: 2px solid rgba(31, 27, 27, 0.829);
+}
+/* this is the part on the scrollbar that is moving  */
+/* border-radius will change the appearance or the shape of the thumb */
+
+::-webkit-scrollbar-thumb:hover {
+  background: gold;
+}
+
+/* play around with background color and border color */
+/* if the body is added infront of each :: -webkit- (body::-webkit-) command, the scrollbar will affect the main page scrollbar only and not the scrollbar in the page. */
+/* if the vertical-scroll is added infront of the ::-webkit- command, it will only affect the scrollbars inside the page and the scrollbar on the main page will be different. */
