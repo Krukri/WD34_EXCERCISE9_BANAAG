@@ -16,6 +16,9 @@ body {
   margin-left: 0px;
   margin-right: 0px;
 }
+* {
+  margin-inline: 0px;
+}
 
 .logo {
   height: auto;
